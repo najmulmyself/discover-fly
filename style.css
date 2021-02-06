@@ -65,6 +65,9 @@ nav ul li a:hover, a.active{
 .inp-width{
     min-width: 300px;
 }
+.input-group .btn{
+    z-index: 0;
+}
 .plus-minus-btn{
     color: #3352F2;
     /* font-size: 30px; */
@@ -119,4 +122,24 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.confirmation-box{
+    width: 100%;
+    left: 0;
+    top: 0;
+    height:856px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    display: none;
+}
+.box-content{
+    width: 500px;
+     height:570px; 
+    background-color:#fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    left: 400px;
 }

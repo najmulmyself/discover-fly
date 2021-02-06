@@ -95,11 +95,11 @@
                         <h4>Total</h4>
                     </div>
                     <div class="right">
-                        <p id = grand-total>$0</p>
+                        <p id ="grand-total">$0</p>
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <button id="book-now" class="btn-style">Book Now</button>
         </div>
 
         <div class="booking-content">
@@ -107,6 +107,44 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Provident voluptatibus quam fuga laborumalias veniam libero autem quasi maxime ullam vero nama imi dolor, architecto ab facilis eaque deserunt nobise voluptatibus quam</p>
         </div>
     </section>
+
+    <!-- Confimation Section -->
+
+    <div class="confirmation-box">
+        <div class="box-content">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Ticket Quantity</th>
+                    <th scope="col">Amount Without VAT</th>
+                    <th scope="col">Total Amount(10 % VAT)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>First Class</td>
+                    <td id="first-count">0</td>
+                    <td>$<span id="amountOfFirst">0</span></td>
+                    <td id="booking-total-With-VAT" rowspan="2">$0</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Economy Class</td>
+                    <td id="economy-count">0</td>
+                    <td>$<span id="amountOfEconomy">0</span></td>
+                  </tr>
+                  <tr>
+                      <th colspan="4">Subtotal</th>
+                      <td id="sub-booking-total">$0</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button id="back-home" class="btn-style">Back to Home</button>        
+            </div>
+    </div>
 
     <!--Thank You-->
     <script src="script.js"></script>
