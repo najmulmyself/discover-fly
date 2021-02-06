@@ -30,7 +30,7 @@ function totalCount(){
     const grandTotal = subTotal + taxCount;
     document.getElementById('grand-total').innerText = '$' + grandTotal;
 
-    document.getElementById('booking-total-With-VAT').innerText = '$' + grandTotal;
+    document.getElementById('booking-total-With-VAT').innerText = '$' + taxCount;
     document.getElementById('sub-booking-total').innerText = '$' + grandTotal;
 }
 
